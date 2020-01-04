@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(-45deg, rgb(4, 255, 171), pink, rgb(233, 17, 117)) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.centrado {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 2000px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tabla {
+    width: 33%;
+    height: 760px;
+    margin: auto;
+    border: 1px solid #343759;
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0 #343759;
+    padding: 60px;
+    text-align: center;
+    flex-grow: 1;
+    color: #343759;
+    margin-bottom: 50px;
+}
+
+.tabla>h2 {
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.tabla img {
+    width: 200px;
+    margin-bottom: 35px;
+}
+
+.tabla > p {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.boton {
+    display: inline-block;
+    width: 150px;
+    padding: 12px;
+    background: #a5f059;
+    text-decoration: none;
+    color: #343759;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin:auto;
+}
+
+.tabla:hover {
+    background: linear-gradient(-45deg, rgb(4, 255, 171), pink, rgb(233, 17, 117));
+    color: #f1f1f2;
+    transition: 0.8s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
